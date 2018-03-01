@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int
+using namespace std ;
+int main()
+{
+	int t,n,k,p,ans,i;
+	sf("%d",&t);
+	for(i=1;i<=t;i++)
+	{
+			cin>>n>>k>>p;
+			ans = (k+p)%n;
+
+			if(ans==0)
+				pf("Case %d: %d\n",i,n);
+			else
+				pf("Case %d: %d\n",i,ans);
+
+	}
+	
+	return 0;
+}
