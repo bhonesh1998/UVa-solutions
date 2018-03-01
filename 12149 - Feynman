@@ -1,0 +1,35 @@
+/*
+***********************************************************
+***********************************************************
+
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int
+using namespace std ;
+int main()
+{
+	int t,i,n,j;
+	//sf("%d",&t);
+
+
+	while(1)
+	{
+		
+		sf("%d",&n);
+		if(n==0)
+			break;
+		pf("%d\n",( (n*(n+1)*(2*n+1)))/6   );
+	}
+	
+	return 0;
+}
