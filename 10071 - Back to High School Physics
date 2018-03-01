@@ -1,0 +1,28 @@
+/*
+***********************************************************
+***********************************************************
+10071 - Back to High School Physics
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define mod 1000000007
+#define z long long int
+using namespace std;
+int main()
+{
+	
+	z v,t;
+	while(sf("%lld %lld",&v,&t)!=EOF)
+		pf("%lld\n",2*v*t);
+
+
+}
+
