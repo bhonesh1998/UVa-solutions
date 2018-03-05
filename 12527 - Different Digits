@@ -1,0 +1,63 @@
+/*
+***********************************************************
+***********************************************************
+
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int
+using namespace std ;
+int main()
+{
+	int p,c=0,n,i,j,flag=0;
+	int a[5]={0};
+
+	while(sf("%d %d",&i,&j)!=EOF)
+	{
+ c=0;
+	for(n=i;n<=j;n++)
+	{
+
+			flag=0;
+	//sf("%d",&n);
+	int k=0;
+	int q=n;
+	while(q!=0)
+	{			
+			a[k++]=q%10;
+			q/=10;
+
+	}
+
+	for(int i=0;i<k;i++)
+	{
+		for(int j=i+1;j<k;j++)
+		{
+			//pf("ch \n%d %d\n",a[i],a[j]);
+			if(a[i]==a[j])
+				flag=1;
+		}
+	}
+
+	if(flag==0)
+		c++;
+
+
+	}
+
+	pf("%d\n",c);
+
+}
+
+	return 0;
+} 
+
