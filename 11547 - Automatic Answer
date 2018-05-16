@@ -1,0 +1,31 @@
+/*
+***********************************************************
+***********************************************************
+
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int 
+using namespace std;
+int main()
+{		
+		z t,a,b,n;
+		sf("%lld",&t);
+		while(t--)
+		{
+			sf("%lld",&n);
+			z ans = 5*63*n + 5*7492 -498;
+			ans = ans%100;
+			ans = ans/10;
+			pf( "%lld\n",abs(ans) );
+		}
+}
