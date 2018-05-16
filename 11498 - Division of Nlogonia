@@ -1,0 +1,53 @@
+/*
+***********************************************************
+***********************************************************
+
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int 
+using namespace std;
+int main()
+{
+		z r ;	
+			
+				
+				while(1)
+				{
+					z k;
+					sf("%lld",&k);
+					if(k==0)
+						break;
+					else
+					{
+					z m,n;
+					sf("%lld%lld",&m,&n);
+					while(k--)
+						{
+							z x,y;
+							sf("%lld%lld",&x,&y);
+							if(x==m || y==n)
+								pf("divisa\n");
+							else if(x>m && y>n)
+								pf("NE\n");
+							else if(x<m && y>n)
+								pf("NO\n");
+							else if(x>m && y<n)
+								pf("SE\n");
+							else
+								pf("SO\n");
+						}
+				
+				}
+			}
+
+}
