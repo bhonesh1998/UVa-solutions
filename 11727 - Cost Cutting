@@ -1,0 +1,37 @@
+/*
+***********************************************************
+***********************************************************
+
+NAME-BHONESH CHAWLA
+REGNO-20164017
+BATCH-CS-1
+CONTACT-+918619127663
+EMAIL-rajachawla778@gmail.com
+***********************************************************
+***********************************************************
+*/
+
+#include<bits/stdc++.h>
+#define pf printf
+#define sf scanf
+#define z long long int 
+using namespace std;
+z i,j;
+int main()
+{       
+
+    z t,a[3];
+    sf("%lld",&t);
+    for(j=1;j<=t;j++)
+    {
+       for(i=0;i<3;i++)
+        sf("%lld",&a[i]);
+        sort(a,a+3);
+        pf("Case %lld: %lld\n",j,a[1]);
+    }
+
+       
+
+
+
+}
